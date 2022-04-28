@@ -1,0 +1,353 @@
+* {  
+    box-sizing: border-box;  
+    margin: 0;  
+    padding: 0;  
+}  
+   body {  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    background: #fff;  
+    color: #000;  
+    font-size: 15px;  
+    line-height: 1.5;  
+    /* overflow: hidden; */
+    overflow-x: hidden;
+} 
+.container {  
+    width: 100%;  
+    max-width: 95%;  
+    margin:auto;  
+   }  
+/* nav sec */
+.main-menu{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #f2f2f2;
+}
+.left-menu{
+    display: flex;
+    direction: rtl;
+}
+.left-menu li{
+    list-style-type: none;
+    font-size: 13px;
+}
+.left-menu li a:hover{
+    border-bottom: 2px solid;
+}
+a{
+    text-decoration: none;
+    color: #262626; 
+}
+img{
+    width: 120px;
+    margin: 5px;
+    padding: 10px;
+}
+/* end nav sec */
+
+/* head sec */
+.head-sec{
+    width: 100%;
+    height: 500px;
+    /* margin-left: 25px; */
+    background: url(/img/RWCCSm.webp) no-repeat center center/cover; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.content{
+    /* background-color: red; */
+    width: 40%;
+    height: 120px;
+    margin-left: 50px;
+}
+.head-sec .content h2{
+    color: black;
+}
+.content p{
+    margin: 10px 0 20px; 
+}
+.content a{
+    width: 120px;
+    height: 45px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+/* end head sec */
+
+/* home sec */
+.home-cards {  
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);  
+    grid-gap: 20px;  
+    margin-bottom: 40px;  
+   }  
+   .home-cards img {  
+    width:calc(100% - 3%);  
+    margin-bottom: 20px;  
+   }  
+   .home-cards p{
+    margin-left:25px;
+   }
+   .home-cards h3 {  
+    margin-bottom: 5px;  
+    margin-left:25px;
+   }  
+   .home-cards a {  
+    display: inline-block;  
+    padding-top: 10px;  
+    color: #0067b8;  
+    text-transform: uppercase;  
+    font-weight: bold;
+    margin-left:25px;  
+   }  
+   .home-cards a:hover i {  
+    margin-left: 10px;  
+   }  
+   /* end home sec */
+   
+   /* xbox sec */
+
+   .xbox{
+       width: 100%;
+       height: 500px;
+       background: url(/img/5f90cf56-f2db-4c65-bf30-ce96e5c754be.jpg) no-repeat center center/cover;
+       margin-top: 25px;
+       /* margin-left: 25px; */
+       margin-bottom: 10px;
+   }
+   .xbox .content{
+    width: 40%;
+    padding: 50px 0 0 30px;  
+   }
+   .xbox p, .carbon p {  
+    margin: 10px 0 20px;  
+    color: #fff;
+   } 
+   .content h2{
+       color: #fff;
+   }
+   .xbox a{
+    width: 120px;
+    height: 45px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+/* end xbox sec */
+/* home-card2 start */
+.home {  
+    display: grid;  
+    grid-template-columns: repeat(4, 1fr);  
+    grid-gap: 20px;  
+    /* margin-bottom: 40px;   */
+   }
+.home-sec2 div{
+    width: 100%;
+    background: #f2f2f2;
+}
+.home-sec2 img {  
+    width: 10%;  
+    margin: auto;
+} 
+.home-sec2 h3 {  
+    margin-bottom: 5px; 
+    margin-left: 25px; 
+}  
+.home-sec2 p{
+    margin-left: 25px;
+}
+.home-sec2 a {  
+    display: inline-block;  
+    padding-top: 10px;  
+    color: #0067b8;  
+    text-transform: uppercase;  
+    font-weight: bold;
+    margin-left: 25px;  
+}  
+.home-sec2 a:hover i {  
+    margin-left: 10px;  
+} 
+/* home-card2 end */
+
+/* carbon start */
+
+.carbon{
+    width: 100%;
+    height: 500px;
+    background: url(/img/federico-respini-sYffw0LNr7s-unsplash.jpg) no-repeat center center/cover; 
+    margin-top: 25px;
+    /* margin-left: 25px; */
+}
+.carbon .content{
+ width: 40%;
+ padding: 50px 0 0 30px;  
+}
+.carbon p, .carbon p {  
+ margin: 10px 0 20px;  
+ color: #fff;
+} 
+.content h2{
+    color: #fff;
+}
+.carbon a{
+ width: 120px;
+ height: 45px;
+ background-color: black;
+ text-align: center;
+ padding: 10px;
+ color: #fff;
+}
+/* carbon end */
+
+/* fallow sec */
+.fallow{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    /* margin-left: 25px; */
+}
+.fallow img{
+    width: 50px;
+}
+/* end fallow sec */
+
+/* links sec */
+.links{
+    width: 100%;
+    height: 300px;
+    background: #f2f2f2;  
+    color: #616161;  
+    font-size: 12px;  
+    /* padding: 35px 0; */
+    /* margin-left: 25px */
+    margin-top: -20px;
+}
+.links div{
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto;
+    grid-gap: 15px;
+}
+.links div ul{
+    margin-top: 20px;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+/* end links sec */
+
+/* footer sec */
+.footer{
+    width: 100%;
+    background: #f2f2f2;   
+    color: #616161;  
+    font-size: 12px;
+    /* margin-left: 25px;   */
+    margin-top: -20px;
+}
+.footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer ul{
+    /* display:flex;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.footer-sec i{
+    margin: 5px;
+}
+
+@media(max-width: 748px) {  
+    .head-sec{
+        height: 300px;
+    }
+    .head-sec a{
+        font-size: 12px;
+    }
+    .left-menu li{
+        font-size: 11px;
+    }
+    .home-cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .xbox{
+        height: 300px;
+    }
+    .xbox .content{
+        width: 50%;
+        padding: 50px 0 0 10px;
+    }
+    .content p{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .content h2{
+        font-size: 13px;
+    }
+    .xbox .content a{
+        font-size: 12px;
+    }
+    .fallow{
+        width: 50%;
+    }
+    .fallow img{
+        width: 40px;
+    }
+    .links{
+        height: 550px;
+    }
+    .links div{
+        grid-template-columns: repeat(3,1fr);
+    }
+    ul li{
+        /* padding: 5px; */
+        font-size: 11px;
+    }
+    
+    .footer div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .footer ul{
+        margin: 10px;
+        grid-template-columns: repeat(4,1fr);
+        margin: auto;
+    }
+    .carbon{
+        height: 300px;
+    }
+    .carbon .content{
+        width: 50%;
+        padding: 50px 0 0 10px;
+    }
+    .content p{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .content h2{
+        font-size: 13px;
+    }
+    .carbon .content a{
+        font-size: 12px;
+    }
+   }  
